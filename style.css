@@ -161,7 +161,79 @@
     padding-top: 1px;
     color: white;
 }
+.sec5{
+    width: 100%;
+    height: 1500px;
+    background-color: #1f1f1f;
+    color: azure;
+    padding-top: 1px;
+}
+.h2{
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.d1{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 00px;
+}
+select{
+    background-color: #2b2b2b;
+    color: white;
+    border: 2px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 15px;
+    width: 350px;
+}
+.d2{
+    width: 100%;
+    height: 240px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d3{
+    width: 80%;
+    height: 250px;
+    border: 2px solid #dcdcdc;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bn1{
+   width: 400px;
+   height: 60px; 
+}
+.d5{
+    width: 100%;
+    height: 300px;
 
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.d6{
+    width: 400px;
+    height: 200px;
+}
+.aa{
+    width: 50%;
+    height: 40px;
+    padding: 10px;
+    background-color: orange;
+    border-radius: 10px;
+    border: none;
+    margin-top: 30px;
+}
 
 
 
@@ -277,6 +349,39 @@
         }
         .bn{
             display: none;
+        }
+    }
+    .sec5{
+        width: 100%;
+        height: 3500px;
+        margin: auto;
+        text-align: center;
+        .d1{
+            width: 80%;
+            height: 400px;
+            flex-wrap: wrap;
+            margin: auto;
+            text-align: center;
+        }
+        .d3{
+            width: 80%;
+            height: 700px;
+            flex-wrap: wrap;
+        }
+        .d2{
+            width: 90%;
+            margin: auto;
+            height: 800px;
+        }
+        .qq{
+            width: 200px;
+            height: 200px;
+        }
+        .d5{
+            width: 90%;
+            margin: auto;
+            flex-wrap: wrap;
+            height: 400px;
         }
     }
 }
